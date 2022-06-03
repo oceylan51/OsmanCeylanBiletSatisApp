@@ -1,0 +1,472 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head-div {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(197, 69, 93);
+}
+
+.head-main {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    border-right: 4px solid white;
+    border-left: 1px solid white;
+}
+
+.logo-div {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS';
+    -webkit-transform: rotate(-5deg);
+    color: white;
+    font-size: 15pt;
+}
+
+.head-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-div {
+    margin-right: 5px;
+    font-size: 16pt;
+}
+
+    .social-div a {
+        color: palevioletred;
+    }
+
+.nav-item a {
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: black !important;
+}
+
+.container {
+    border-top: 1px solid red;
+}
+
+.city-name {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+.ticket-buttons {
+    display: flex;
+}
+
+.form-select {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+}
+
+.city-image {
+    width: 50%;
+}
+
+.container-main-top {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    border-top: 3pt solid rgb(153, 185, 196);
+}
+
+.footer-top {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-top-logo {
+    font-size: 18pt;
+    padding: 1px;
+    border-bottom: 1px solid white;
+}
+
+#kurumsal a {
+    text-decoration: none;
+    color: white;
+}
+
+    #kurumsal a:hover {
+        color: red;
+    }
+
+.ticket-sales-form {
+    width: 80%;
+    height: 120px;
+    background-color: #fce7e8;
+    margin: auto;
+}
+
+#ticket-query {
+    width: 300px !important;
+}
+
+#carouselExampleControls {
+    position: relative;
+}
+
+#ticket-sales-div {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+
+.food-feature,
+.tv-feature,
+.wifi-feature,
+.socket-feature,
+.android-feature,
+.usb-feature {
+    width: 70px;
+    height: 70px;
+    border: 1px solid red;
+    border-radius: 100%;
+}
+
+    .food-feature:hover,
+    .tv-feature:hover,
+    .wifi-feature:hover,
+    .socket-feature:hover,
+    .android-feature:hover,
+    .usb-feature:hover {
+        /* margin-left: 100px; */
+        width: 600px;
+        height: 70px;
+        height: 70px;
+        border: 1px solid black;
+        border-radius: 10px;
+        /* transition: width 1s; */
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+#food-icon,
+#tv-icon,
+#wifi-icon,
+#socket-icon,
+#android-icon,
+#usb-icon {
+    color: #3e4048;
+    font-size: 20pt;
+}
+
+#food-icon-descripton,
+#tv-icon-descripton,
+#wifi-icon-descripton,
+#socket-icon-descripton,
+#android-icon-descripton,
+#usb-icon-descripton {
+    font-size: 8pt;
+    margin-left: 20px !important;
+}
+
+.main-advertising {
+    width: 400px;
+    height: 400px;
+}
+
+.main-advertising2 {
+    width: 130px;
+    height: 130px;
+}
+
+.asddddddd {
+    width: 300px;
+    height: 300px;
+}
+
+.sefer-main-top {
+    width: 100%;
+    height: 100px;
+}
+
+.sefer-main-top-top {
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    background-color: #555555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sefer-main-top-top-left div {
+    width: 100px;
+    height: 45px;
+    margin-top: 3px;
+    margin-left: 10px;
+    line-height: 45px;
+    text-align: center;
+    background-color: white;
+}
+
+.sefer-main-top-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17pt;
+    color: white;
+    width: 100%;
+}
+
+.sefer-main-top-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    text-align: center;
+    font-size: 18pt;
+    line-height: 50px;
+}
+
+.sefer {
+    width: 95%;
+    height: 100px;
+    margin-top: 20px !important;
+    margin: auto;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sefer-left {
+    width: 20%;
+    background-color: #d1d1d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sefer-baslangıc {
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+.sefer-sure {
+    color: red;
+}
+
+.sefer-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.tip {
+    font-size: 24pt;
+}
+
+.ozellikler {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20pt;
+}
+
+.ucret {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+    .ucret i {
+        font-size: 20pt;
+    }
+
+.sefer-right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sefer-sec-btn {
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.oturma-duzeni {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.koltuklar {
+    width: 80%;
+    height: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid red;
+}
+
+.ikili-koltuklar {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+}
+
+.tekli-koltuklar {
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.koltuk {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 35px;
+}
+
+    .koltuk:hover {
+        cursor: pointer;
+    }
+
+.ikili-koltuklar div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ticket-body {
+    font-size: 13pt;
+    color: #000000;
+}
+
+.introduction {
+    font-family: 'Brush Script MT';
+    font-size: 16pt;
+    color: white;
+}
+
+@media(max-width:568px) {
+    .features {
+        display: none !important;
+    }
+
+    .main-advertising {
+        height: 200px;
+    }
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CeylanTurizm.Data\CeylanTurizm.Data.csproj" />
+    <ProjectReference Include="..\CeylanTurizm.Entity\CeylanTurizm.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

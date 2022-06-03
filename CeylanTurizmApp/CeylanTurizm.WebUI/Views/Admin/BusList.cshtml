@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "_osmanLayout";
+}
+@model List<Bus>
+
+
+    <div class="container-admin p-2 mt-2">
+        <h4 class="display-4">Bus List</h4>
+        <hr />
+        <a asp-controller="Admin" asp-action="BusCreate" class="btn btn-sm mb-3 btn-success">Create Bus</a>
+
+        <table class="table table-md table-dark">
+            <tr>
+                <td>Plaque</td>
+                <td>Driver</td>
+                <td>Seating Capacity</td>
+                <td>Actions</td>
+            </tr>
+            @foreach (var bus in Model)
+            {
+                <tr>
+                    <td>@bus.BusPlaque</td>
+                    <td>@bus.BusDriver</td>
+                    <td>@bus.BusSeatingCapacity</td>
+                    <td>
+                        <a asp-controller="Admin" asp-action="BusEdit" asp-route-id="@bus.BusId" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-controller="Admin" asp-action="BusDelete" asp-route-id="@bus.BusId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>

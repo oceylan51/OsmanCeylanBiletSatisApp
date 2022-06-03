@@ -1,0 +1,18 @@
+﻿@model TicketSales
+<form asp-controller="TicketSales" asp-action="TicketFound">
+    <div class="login w-75 m-auto d-flex justify-content-center mt-4 ">
+        <div class="w-75 border border-1 pt-4 pb-4">
+            <div class="Id w-100 d-flex justify-content-around">
+                <label class="w-25"> Pnr No Giriniz </label>
+                <input asp-for="TicketSalesId" class="w-25 form-control" type="text" placeholder="Pnr No  Giriniz">
+            </div>
+            <div class="pwd w-100 d-flex justify-content-around mt-4">
+                <label class="w-25"> Tc No  Giriniz:</label>
+                <input asp-for="customerTcNo" class="w-25 form-control" type="password" placeholder="Tc No Giriniz">
+            </div>
+            <div class="login-btn w-100 d-flex justify-content-evenly mt-4 pe-5">
+                <button type="submit" class="btn btn-sm btn-success w-25">Sorgula</button>
+            </div>
+        </div>
+    </div>
+</form>

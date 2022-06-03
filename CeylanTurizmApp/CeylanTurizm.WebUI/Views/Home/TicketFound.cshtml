@@ -1,0 +1,77 @@
+﻿@model TicketSales
+@{ if (ViewBag.Control == 1)
+    {
+        <div class="container">
+            <div class="ticket w-75 m-auto">
+                <div class="bg-danger font-weight-bold mt-3 fs-3 text-white text-center">CEYLAN TURİZM</div>
+
+                <div class="w-100 bg-light ticket-body">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-around">
+                            <div>
+                                <div class="mt-3">
+                                    Kalkış Yeri :
+                                </div>
+                                <div class="mt-3">
+                                    Varış Yeri :
+                                </div>
+                                <div class="mt-3">
+                                    Yolculuk Tarihi :
+                                </div>
+                                <div class="mt-3">
+                                    Yolculuk Saati :
+                                </div>
+                                <div class="mt-3">
+                                    Otobüs Plakası :
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-3">@Model.Expedition.ExpeditionStart</div>
+                                <div class="mt-3">@Model.Expedition.ExpeditionFinish</div>
+                                <div class="mt-3">@Model.Expedition.ExpeditionDate</div>
+                                <div class="mt-3">@Model.Expedition.ExpeditionHour</div>
+                                <div class="mt-3">@Model.Expedition.Bus.BusPlaque</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-around">
+                            <div>
+                                <div class="mt-3">
+                                    Yolcu Adı :
+                                </div>
+                                <div class="mt-3">
+                                    Yolcu Soyadı :
+                                </div>
+                                <div class="mt-3">
+                                    Yolcu Tel:
+                                </div>
+                                <div class="mt-3">
+                                    Yolcu Mail:
+                                </div>
+                                <div class="mt-3">
+                                    Pnr No :
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-3">@Model.customerName</div>
+                                <div class="mt-3">@Model.customerSurname</div>
+                                <div class="mt-3">@Model.customerTelNo</div>
+                                <div class="mt-3">@Model.customerTcNo</div>
+                                <div class="mt-3">@Model.TicketSalesId</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div class="text-danger text-center font-italic">
+                        CEYLAN TURİZM HAYIRLI YOLCULUKLAR DİLER 08505515151
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+@if (ViewBag.Control == 0)
+{
+    <h1 class="display-4">Böyle Bir Bilet Bulunmamaktadır</h1>
+}

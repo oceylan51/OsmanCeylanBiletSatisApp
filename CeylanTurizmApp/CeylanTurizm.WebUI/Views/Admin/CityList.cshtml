@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "_osmanLayout";
+}
+@model List<City>
+
+
+<div class="container-admin p-2 mt-2">
+    <h4 class="display-4">City List</h4>
+    <hr />
+    <a asp-controller="Admin" asp-action="CityCreate" class="btn btn-sm mb-3 btn-success">Create City</a>
+
+    <table class="table table-md table-dark">
+        <tr>
+            <td>City No</td>
+            <td>City Name</td>
+            <td>City Title</td>
+            <td>Actions</td>
+        </tr>
+        @foreach (var city in Model)
+        {
+            <tr>
+                <td>@city.CityNo</td>
+                <td>@city.CityName</td>
+                <td width="400">@city.CityTitle</td>
+                <td>
+                    <a asp-controller="Admin" asp-action="CityEdit" asp-route-id="@city.CityId" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-controller="Admin" asp-action="CityDelete" asp-route-id="@city.CityId" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

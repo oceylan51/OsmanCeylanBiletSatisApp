@@ -1,0 +1,21 @@
+﻿
+@model LoginModel
+<form asp-controller="Account" asp-action="Login" method="post">
+    <div class="login w-100 d-flex justify-content-center mt-4 ">
+        <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+        <div class="w-75 border border-1 pt-4 pb-4">
+            <div class="Id w-100 d-flex justify-content-around">
+                <label class="w-25" asp-for="UserName"> Kullanıcı Adınızı Giriniz </label>
+                <input class="w-25 form-control" asp-for="UserName" type="text" placeholder="Kullanıcı Adınızı Giriniz">
+            </div>
+            <div class="pwd w-100 d-flex justify-content-around mt-4">
+                <label class="w-25" asp-for="Password"> Şifrenizi Giriniz:</label>
+                <input asp-for="Password" class="w-25 form-control" type="password" placeholder="Şifrenizi Giriniz">
+            </div>
+            <div class="login-btn w-100 d-flex justify-content-evenly mt-4 pe-5">
+                <button type="submit" asp-controller="Account" asp-action="Login" class="btn btn-sm btn-success w-25">Giriş</button>
+                <a href="/uye-kayit" class="btn btn-sm btn-warning w-25">Üye Ol</a>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,43 @@
+﻿@model RegisterModel
+<form asp-controller="Account" asp-action="Register" method="post">
+    <div class="container">
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="IdentityNumber">Tc No:</label>
+            <input asp-for="IdentityNumber" class="form-control w-50" placeholder="Tc No Giriniz">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="FirstName">Ad:</label>
+            <input asp-for="FirstName" class="form-control w-50" placeholder="Adınızı Girin">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="LastName">Soyad:</label>
+            <input asp-for="LastName" class="form-control w-50" placeholder="Soyadınızı Girin">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="Gender">Cinsiyet:</label>
+            <select class="w-50 form-control" asp-for="Gender">
+                <option>Erkek</option>
+                <option>Kadın</option>
+            </select>
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="UserName">Kullanıcı Adınızı:</label>
+            <input asp-for="UserName" class="form-control w-50" placeholder="Kullanıcı Adınızı Girin">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="Password">Şifre:</label>
+            <input asp-for="Password" class="form-control w-50" placeholder="Şifrenizi Girin">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="RePassword">Şifre Tekrarı:</label>
+            <input asp-for="RePassword" type="password" class="form-control w-50" placeholder="Şifrenizi Girin">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+            <label class="w-25" asp-for="Email">Email:</label>
+            <input asp-for="Email" class="form-control w-50" placeholder="Email Girin">
+        </div>
+        <div class="w-50 d-flex justify-content-evenly align-items-center mt-4 m-auto">
+            <input type="submit" class="btn btn-sm btn-outline-success m-auto w-50" />
+        </div>
+    </div>
+</form>

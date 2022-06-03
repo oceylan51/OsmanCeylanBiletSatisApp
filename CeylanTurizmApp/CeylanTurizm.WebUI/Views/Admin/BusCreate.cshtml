@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "_osmanLayout";
+}
+@model BusModel
+
+<div class="container-admin">
+    <h6 class="display-4">Bus Create</h6>
+    <hr />
+    <div asp-validation-summary="All"></div>
+    <form asp-controller="Admin" asp-action="BusCreate" method="post">
+        <div class="w-75 d-flex align-items-center">
+            <div class="w-25">
+                <label asp-for="BusPlaque">Plaque</label>
+            </div>
+            <div class="w-50">
+                <input type="text" asp-for="BusPlaque" class="form-control" />
+            </div>
+        </div>
+        <div class="w-75 d-flex align-items-center mt-3">
+            <div class="w-25">
+                <label asp-for="BusDriver">Driver</label>
+            </div>
+            <div class="w-50">
+                <input type="text" asp-for="BusDriver" class="form-control" />
+            </div>
+        </div>
+        <div class="w-75 d-flex align-items-center mt-3">
+            <div class="w-25">
+                <label asp-for="BusSeatingCapacity">Seat Capacity</label>
+            </div>
+            <div class="w-50">
+                <input type="number" asp-for="BusSeatingCapacity" class="form-control" />
+            </div>
+        </div>
+        <div class="mt-4
+             ">
+            <button class="btn btn-sm btn-primary ">Create Bus</button>
+        </div>
+    </form>
+</div>

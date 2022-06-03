@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "_osmanLayout";
+}
+
+@model CityModel
+<form class="container-admin p-3" asp-action="CityCreate" asp-controller="Admin" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-5">
+                    <label asp-for="CityNo">City No</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityNo" class="form-control" />
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-5">
+                    <label asp-for="CityName">City Name</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityName" class="form-control" />
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-5">
+                    <label asp-for="CityImg">City Image</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityImg" class="form-control" />
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-5">
+                    <label asp-for="CityTitle">City Title</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityTitle" class="form-control" style="height:90px" />
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-5">
+                    <label asp-for="CityDescription">City Description1</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityDescription" class="form-control" style="height:90px" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-5">
+                    <label asp-for="CityDescription2">City Description2</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityDescription2" class="form-control" style="height:90px" />
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-5">
+                    <label asp-for="CityDescription3">City Description3</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityDescription3" class="form-control" style="height:90px" />
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-5">
+                    <label asp-for="CityDescription4">City Description4</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityDescription4" class="form-control" style="height:90px" />
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-5">
+                    <label asp-for="CityDescription5">City Description5</label>
+                </div>
+                <div class="col-md-7">
+                    <input type="text" asp-for="CityDescription5" class="form-control" style="height:90px" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="mt-3 btn-lg btn-outline-success w-100">Create Ctiy</button>
+</form>

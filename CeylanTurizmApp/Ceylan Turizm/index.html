@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="bg-light">
+
+    <div class="head-div">
+        <div class="logo-div">
+            CEYLAN TURİZM
+        </div>
+        <div class="head-main">
+            <div class="introduction">
+                Sizi Sevdiklerinize Kavuşturuyoruz :)))
+            </div>
+            <div class="social-div">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="head-contact">
+            <div>08505515151</div>
+            <div>7/24 Müşteri Temsilcisi</div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Otobüs Bileti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Yolcum Nerede</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">E Bilet</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Seyahat klavuzu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Kurumsal
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            İletişim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="me-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ceylan Kart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-regular fa-user"></i>Üye Girişi</a>
+                            </li>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+    <!-- 
+    <div class="container">
+        <div class="sefer-main-top">
+            <div class="sefer-main-top-top">
+                <div class="sefer-main-top-top-left">
+                    <div>Gidiş</div>
+                </div>
+                <div class="sefer-main-top-top-right">
+                    <div class="w-25 d-flex justify-content-around align-items-center"><span>Ankara</span><i
+                            class="fa-solid fa-right-long"></i><span>İstnabul</span></div>
+                </div>
+            </div>
+            <div class="sefer-main-top-bottom">
+                Daha Sonra Düzenlenecek
+            </div>
+        </div>
+
+        <div class="sefe-main-bottom">
+            <div class="sefer">
+                <div class="sefer-left">
+                    <div class="sefer-baslangıc">
+                        05<span>:</span>00
+                    </div>
+                    <div class="sefer-sure">
+                        <i class="fa-regular fa-clock"></i> 7 Saat 30 Dakika
+                    </div>
+                </div>
+                <div class="sefer-middle">
+                    <div class="tip">
+                        2 + 1
+                    </div>
+                    <div class="ozellikler">
+                        <i class="fa-solid fa-hand-holding-droplet"></i>
+                        <i class="fa-solid fa-tv"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-plug"></i>
+                        <i class="fa-brands fa-android"></i>
+                        <i class="fa-brands fa-usb"></i>
+                    </div>
+                    <div class="ucret">
+                        350 <i class="fa-solid fa-turkish-lira-sign"></i>
+                    </div>
+                </div>
+                <div class="sefer-right">
+                    <button type="submit" id="sefer-btn" class="sefer-sec-btn">
+                        <i class="fa-solid fa-angle-down"></i> Sefer Seç
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="oturma-duzeni d-none">
+            <div class="koltuklar pb-3">
+                <div class="ikili-koltuklar mt-2">
+                    <div>
+                        <div id="koltuk" class="koltuk">1</div>
+                        <div id="koltuk" class="koltuk">2</div>
+                        <div id="koltuk" class="koltuk">3</div>
+                        <div id="koltuk" class="koltuk">4</div>
+                        <div id="koltuk" class="koltuk">5</div>
+                        <div id="koltuk" class="koltuk">6</div>
+                        <div id="koltuk" class="koltuk">7</div>
+                        <div id="koltuk" class="koltuk">8</div>
+                        <div id="koltuk" class="koltuk">1</div>
+                        <div id="koltuk" class="koltuk">2</div>
+                        <div id="koltuk" class="koltuk">3</div>
+                        <div id="koltuk" class="koltuk">4</div>
+                        <div id="koltuk" class="koltuk">5</div>
+                        <div id="koltuk" class="koltuk">6</div>
+                        <div id="koltuk" class="koltuk">7</div>
+                    </div>
+                    <div class="mt-2">
+                        <div id="koltuk" class="koltuk">1</div>
+                        <div id="koltuk" class="koltuk">2</div>
+                        <div id="koltuk" class="koltuk">3</div>
+                        <div id="koltuk" class="koltuk">4</div>
+                        <div id="koltuk" class="koltuk">5</div>
+                        <div id="koltuk" class="koltuk">6</div>
+                        <div id="koltuk" class="koltuk">7</div>
+                        <div id="koltuk" class="koltuk">8</div>
+                        <div id="koltuk" class="koltuk">1</div>
+                        <div id="koltuk" class="koltuk">2</div>
+                        <div id="koltuk" class="koltuk">3</div>
+                        <div id="koltuk" class="koltuk">4</div>
+                        <div id="koltuk" class="koltuk">5</div>
+                        <div id="koltuk" class="koltuk">6</div>
+                        <div id="koltuk" class="koltuk">7</div>
+                    </div>
+                </div>
+                <div class="tekli-koltuklar">
+                    <div id="koltuk" class="koltuk">1</div>
+                    <div id="koltuk" class="koltuk">2</div>
+                    <div id="koltuk" class="koltuk">3</div>
+                    <div id="koltuk" class="koltuk">4</div>
+                    <div id="koltuk" class="koltuk">5</div>
+                    <div id="koltuk" class="koltuk">6</div>
+                    <div id="koltuk" class="koltuk">7</div>
+                    <div id="koltuk" class="koltuk">8</div>
+                    <div id="koltuk" class="koltuk">1</div>
+                    <div id="koltuk" class="koltuk">2</div>
+                    <div id="koltuk" class="koltuk">3</div>
+                    <div id="koltuk" class="koltuk">4</div>
+                    <div id="koltuk" class="koltuk">5</div>
+                    <div id="koltuk" class="koltuk">6</div>
+                    <div id="koltuk" class="koltuk">7</div>
+                </div>
+                <input id="expedition" type="text">
+            </div>
+        </div>
+        <div class="sefe-main-bottom">
+            <div class="sefer">
+                <div class="sefer-left">
+                    <div class="sefer-baslangıc">
+                        05<span>:</span>00
+                    </div>
+                    <div class="sefer-sure">
+                        <i class="fa-regular fa-clock"></i> 7 Saat 30 Dakika
+                    </div>
+                </div>
+                <div class="sefer-middle">
+                    <div class="tip">
+                        2 + 1
+                    </div>
+                    <div class="ozellikler">
+                        <i class="fa-solid fa-hand-holding-droplet"></i>
+                        <i class="fa-solid fa-tv"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-plug"></i>
+                        <i class="fa-brands fa-android"></i>
+                        <i class="fa-brands fa-usb"></i>
+                    </div>
+                    <div class="ucret">
+                        350 <i class="fa-solid fa-turkish-lira-sign"></i>
+                    </div>
+                </div>
+                <div class="sefer-right">
+                    <button type="submit" id="sefer-btn" class="sefer-sec-btn">
+                        <i class="fa-solid fa-angle-down"></i> Sefer Seç
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="oturma-duzeni d-none">
+            <div class="koltuklar pb-3">
+                <div class="ikili-koltuklar mt-2">
+                    <div>
+                        <div class="koltuk">1</div>
+                        <div class="koltuk">2</div>
+                        <div class="koltuk">3</div>
+                        <div class="koltuk">4</div>
+                        <div class="koltuk">5</div>
+                        <div class="koltuk">6</div>
+                        <div class="koltuk">7</div>
+                        <div class="koltuk">8</div>
+                        <div class="koltuk">1</div>
+                        <div class="koltuk">2</div>
+                        <div class="koltuk">3</div>
+                        <div class="koltuk">4</div>
+                        <div class="koltuk">5</div>
+                        <div class="koltuk">6</div>
+                        <div class="koltuk">7</div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="koltuk">1</div>
+                        <div class="koltuk">2</div>
+                        <div class="koltuk">3</div>
+                        <div class="koltuk">4</div>
+                        <div class="koltuk">5</div>
+                        <div class="koltuk">6</div>
+                        <div class="koltuk">7</div>
+                        <div class="koltuk">8</div>
+                        <div class="koltuk">1</div>
+                        <div class="koltuk">2</div>
+                        <div class="koltuk">3</div>
+                        <div class="koltuk">4</div>
+                        <div class="koltuk">5</div>
+                        <div class="koltuk">6</div>
+                        <div class="koltuk">7</div>
+                    </div>
+                </div>
+                <div class="tekli-koltuklar">
+                    <div class="koltuk">1</div>
+                    <div class="koltuk">2</div>
+                    <div class="koltuk">3</div>
+                    <div class="koltuk">4</div>
+                    <div class="koltuk">5</div>
+                    <div class="koltuk">6</div>
+                    <div class="koltuk">7</div>
+                    <div class="koltuk">8</div>
+                    <div class="koltuk">1</div>
+                    <div class="koltuk">2</div>
+                    <div class="koltuk">3</div>
+                    <div class="koltuk">4</div>
+                    <div class="koltuk">5</div>
+                    <div class="koltuk">6</div>
+                    <div class="koltuk">7</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <form action="">
+        <div class="login w-100 d-flex justify-content-center mt-4 pt-4">
+            <div class="w-75 border border-1">
+                <div class="Id w-100 d-flex justify-content-around">
+                    <label class="w-25"> Kullanıcı Adınızı Giriniz </label>
+                    <input class="w-25 form-control" type="text" placeholder="Kullanıcı Adınızı Giriniz">
+                </div>
+                <div class="pwd w-100 d-flex justify-content-around mt-4">
+                    <label class="w-25"> Şifrenizi Giriniz:</label>
+                    <input class="w-25 form-control" type="password" placeholder="Şifrenizi Giriniz">
+                </div>
+                <div class="login-btn w-100 d-flex justify-content-evenly mt-4 pe-5">
+                    <button type="submit" class="btn btn-sm btn-success w-25">Giriş</button>
+                    <a class="btn btn-sm btn-warning w-25">Üye Ol</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <form action="">
+        <div class="container">
+            <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+                <label class="w-25" for="">Ad:</label>
+                <input type="text" class="form-control w-50" placeholder="Adınızı Girin">
+            </div>
+            <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+                <label class="w-25" for="">Soyad:</label>
+                <input type="text" class="form-control w-50" placeholder="Soyadınızı Girin">
+            </div>
+            <div class="w-50 d-flex justify-content-evenly align-items-center mt-3 m-auto">
+                <label class="w-25" for="">Cinsiyet:</label>
+                <div class="w-50">
+                    <input type="radio" name="gender"> <label>Erkek</label>
+                    <input class="ms-5" name="gender" type="radio"> <label>Kadın</label>
+                </div>
+            </div>
+            <div class="w-50 d-flex justify-content-evenly align-items-center mt-4 m-auto">
+                <input type="submit" class="btn btn-sm btn-outline-success m-auto w-50" />
+            </div>
+        </div>
+    </form>
+
+
+
+         -->
+    <!-- Genel Bilgiler Başlangıç -->
+    <!-- <div class="container p-4">
+        <div class="row justify-content-between">
+            <div class="col-md-7">
+                <div class="w-100">
+                    <div class="mb-4">
+                        <h3>Bilet İşlemleri</h3>
+                    </div>
+                    <div>
+                        <p>Tüm yolcularımız ferdi kaza sigortası ile teminat altına alınmaktadır.</p>
+                        <p>Biletinizi alırken doğru bilgi veriniz. Tüm hususları (ad-soyad, TC kimlik no, gün, saat,
+                            kalkış ve varış yeri, koltuk no, cinsiyet, vb.) kontrol ediniz. Bu bilgilerin yanlış
+                            belirtilmiş olmasının yükümlülüğü yolcuya aittir.</p>
+                        <p>Biletinizin E-faturasını sefer tamamlandıktan sonra www.pamukkale.com.tr/ebilet adresinden
+                            temin edilebilirsiniz</p>
+                        <p>Hareket saatinden 6 saat öncesine kadar bilet değişimi yapılabilir. Biletiniz açık tarihli
+                            bilete dönüştürülebilir. 12 saat öncesine kadar iptal işlemi yapılabilmektedir. Açık tarihli
+                            biletin kullanım süresi 6 aydır.</p>
+                        <p>Aracın hareket saatinde araç içerisinde hazır bulunmayan yolcularımızın, seyahat hakları
+                            geçersiz sayılır.</p>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <div class="mb-4">
+                        <h3>ÇocukYolcularımız</h3>
+                    </div>
+                    <div>
+                        <p>Karayolu Taşıma Yönetmeliğine göre 0 – 12 yaş aralığında olan yolcular Çocuk Yolculardır.
+                            Kara Yolu Taşıma Yönetmeliğine göre, 6 yaş ve üzeri tüm yolcuların ayrı koltukta seyahat
+                            etmesi zorunludur.</p>
+                        <p>6 ile 12 yaş arası yolcular için Ulaştırma Bakanlığı tarafından düzenlenen ücret tarifesi
+                            üzerinden % 30 indirimli olarak uygulanmaktadır.</p>
+                        <p>Yasal indirim kategorisine giren biletlerin satın alma işlemlerini şubelerimizden
+                            yapabilirsiniz. 12 yaş ve üzeri tüm yolcular Pamukkart Hesabı edinebilirler.</p>
+                        <p>0 – 12 yaş aralığında olan çocuk yolcuların refakatsiz seyahat etmesi mümkün değildir. 12 -
+                            18 yaş aralığındaki yolcuların refakatsiz seyahat edebilmeleri için ise ebeveynlerinden
+                            aldıkları izin belgesini teslim etmeleri gerekmektedir.</p>
+                        <p>18 Yaş Altı Ebeveyn İzin Belgesini indirmek için tıklayınız.</p>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div>
+                        <h3>Engelli Yolcularımız</h3>
+                    </div>
+                    <div>
+                        <p>
+                            Kara Yolu Taşıma mevzuatına göre, en az % 40 oranında engelli olduğunu belgeleyen yolcular
+                            için bilet ücreti, Ulaştırma Bakanlığı tarafından düzenlenen ücret tarifesi üzerinden % 30
+                            indirimli olarak uygulanmaktadır</p>
+                        <p>Yasal indirim kategorisine giren biletlerin satın alma işlemlerini şubelerimizden
+                            yapabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div><img src="/img/icerik_biletislemleri.png" class="container-fluid" alt=""></div>
+                <div><img src="/img/kosancocuk.png" class="container-fluid" alt=""></div>
+
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-md-7">
+                <div class="w-100">
+                    <div class="mb-4">
+                        <h3>Bagaj kuralları</h3>
+                    </div>
+                    <div>
+                        <p>Kara Yolu Taşıma mevzuatına göre, araçlarda zehirli, yanıcı, patlayıcı, akıcı ve ağır kokulu
+                            eşya taşınamaz. Böyle durumlarda bilet iptal işlemi gerçekleştirilmektedir. </p>
+                        <p>Karayolu Taşıma Mevzuatına göre, 30 kg'ı aşan bagajlardan ek bagaj ücreti alınmaktadır.</p>
+                        <p>Yasalar çerçevesinde; bagajlarda kıymetli evrak, kıymetli eşya (para, altın, döviz, mücevher,
+                            elektronik eşya vs.) taşınması firma sorumluluğunda değildir. Bu nevi eşyaların müşteri
+                            tarafından bagajda taşınması konusunda firmaya yazılı talep halinde; (firma bu nevi eşyaları
+                            taşıyıp taşımama konusunda insiyatif sahibidir) ancak firma tarafından verilecek yazı ile
+                            olabilir.</p>
+                        <p>Yazılı tutanak olmayan taşımalarda talep reddedilmiş sayılır. Tutanaklandırılmamış bagajların
+                            kaybı halinde en fazla bilet tutarının iki misli ücret ödenir.</p>
+                        <p>Terminallerimize emanet eşya ve bagaj bırakılması Emniyet Müdürlüğü tarafından güvenlik
+                            gerekçesiyle yasaklanmıştır.</p>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <div class="mb-4">
+                        <h3>Evcil Hayvanlarımız ile yolculuk</h3>
+                    </div>
+                    <div>
+                        <p>Aşı karneli kedi, köpek (tehlike arz edenler hariç) ve kuş (saka, muhabbet kuşu veya kanarya)
+                            gibi 8 kg. ağırlığın altındaki evcil hayvanlarımız, özel taşıma kafeslerinde (23x30x40 cm.
+                            ölçülerinden küçük kafeslerde) kilitli olmak şartıyla, hayvan sahibi yolcumuzun kucağında
+                            seyahat edebilir.Kucakta taşınabilme ağırlık ve ölçü limitleri, taşıyıcı yolcunun ve
+                            yanındaki yolcunun seyahat güvenliği gözetilerek belirlenmiştir. Hayvan sahibi yolcumuz,
+                            evcil hayvanı için dilerse standart fiyat tarifesine uygun olarak koltuk satın alabilir.</p>
+                        <p>8 kg. ağırlığın üzerindeki evcil hayvanlarımız ise yalnızca bagaj bölümünde ve özel taşıma
+                            kafeslerinde, veteriner hekim kontrolünde uyuşturulmuş bir şekilde, otogar yetkililerimiz
+                            ile evcil hayvan sahibi yolcumuz arasında imza karşılığında gerçekleştirilebilir.Belirtilen
+                            koşulların sağlanmadığı ya da yolculuğun evcil hayvanımızın sağlığına zarar verebileceğine
+                            kanaat getirilen durumlarda ulaşımını sağlamama inisiyatifi firmamıza aittir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div><img src="/img/bagaj.png" class="container-fluid" alt=""></div>
+                <div><img src="/img/kopek.png" class="container-fluid" alt=""></div>
+
+            </div>
+        </div>
+    </div> -->
+    <!-- Genel Bilgiler Bitiş -->
+
+    <!-- Kvkk Başlangıç -->
+    <!-- <div class="container mt-5 p-4"> 
+        <div class="col-md-12 col-xs-12 col-sm-12">
+            <h3>KİŞİSEL VERİLERİN İŞLENMESİNE İLİŞKİN AYDINLATMA METNİ</h3>
+            <p>
+                <b>Pamukkale Turizm Sanayi Akaryakıt Tic. ve Ltd.Şti, A Pamukkale Taşımacılık Turizm Tic Ltd Şti.,
+                    APamukkale Kargo Lojistik ve Taşımacılık A.Ş., Pamuktur Taşımacılık Turizm Tic.A.Ş. Anadolu Bilet
+                    Satış Hiz. Ve Oto. İşl.A.Ş. (birlikte “Pamukkale Grup Şirketleri” olarak anılacaktır) olarak kişisel
+                    verilerinizin korunmasına ve güvenliğine azami özen göstermekteyiz. Bu kapsamda, başta özel hayatın
+                    gizliliği olmak üzere kişilerin temel hak ve özgürlüklerini korumak ve kişisel verilerin korunması
+                    amacıyla düzenlenen 6698 sayılı Kişisel Verilerin Korunması Kanunu (“Kanun”) ve ilgili mevzuat
+                    uyarınca kişisel verilerinizin toplanma şekilleri, işlenme amaçları, işlemenin hukuki nedenleri ve
+                    haklarınız konularında Veri Sorumlusu olarak sizleri en şeffaf şekilde aydınlatmak ve bilgilendirmek
+                    isteriz.
+                </b><br>
+            </p>
+            <b>İşleme Amacı </b>
+            <p>Kişisel verileriniz, Pamukkale Grup Şirketleri tarafından hizmet sunulabilmesini teminen, </p>
+            <ul>
+                <li>Biletleme ve rezervasyon bilgilerinizi, </li>
+                <li>Adınızı Soyadınız telefonunuz ile kimlik ve pasaport bilgilerinizi,</li>
+                <li>Seyahat ve güzergâh bilgilerinizi,</li>
+                <li>Biletleme ve rezervasyon detaylarınızı,</li>
+                <li>Faturalama ve ödeme araçlarına ilişkin bilgilerinizi,</li>
+                <li>Çağrı merkezimiz vasıtasıyla toplanan ses kayıtlarınızı,</li>
+                <li>Güvenlik amacıyla toplanan kamera/video/fotoğraf kayıtlarınızı,</li>
+                <li>Kazalara ilişkin hukuki sorumluluklarımızı yerine getirmek üzere toplanan sağlık verilerinizi,</li>
+                <li>Ödeme yapmaya ve iade almaya ilişkin bilgilerinizi,</li>
+                <li>Kişisel ilgi alanlarınıza ilişkin bilgilerinizi,</li>
+                <li>Ürün ve hizmetlere ilişkin talep ve şikâyetleriniz kapsamında çalışanlarımıza iletmiş olduğunuz
+                    bilgilerinizi,</li>
+                <li>İnternet sitemiz, mobil uygulamalarımız ve diğer iletişim kanallarımızı kullanımınıza ait
+                    bilgilerinizi,</li>
+                <li>İnternet sitemiz kullanıcıları için, bilgisayar/donanım ve bağlantı bilgileri, sayfa görüntüleme
+                    istatistikleri, sayfaya gelen ve gidilen trafik bilgileri, ad data/reklam yayınları ile ilgili
+                    veriler, IP adresleri ve standart web log bilgisi/standart web günlüğü bilgileri dahil, sitemizi
+                    ziyaret etmenizden, hizmetlerimizi kullanmanızdan, içerik ve reklamlarımız ile etkileşiminizden
+                    doğan diğer bilgiler;</li>
+                <li>Pamukkale Grup Şirketleri içinde gerekli operasyonel faaliyetlerin yürütülmesi, </li>
+                <li>Pamukkale Grup Şirketleri tarafından ticari kararların verilmesi, uygulanması ve gerçekleştirilmesi
+                    konusunda gerekli adımların atılması,</li>
+                <li>İş ilişkisi kurduğumuz kişilerin ve Pamukkale Grup Şirketleri’nin bu ilişkilerden kaynaklı hukuki
+                    emniyetinin sağlanması, </li>
+                <li>Pamukkale Grup Şirketleri tarafından düzenlenen organizasyonların gerçekleştirilmesi amaçlarıyla
+                    Kanun’un 5 ve 6. maddeleri uyarınca işlenmektedir. </li>
+            </ul>
+            <br>
+            <b>Verilerin Aktarıldığı Taraflar ve Aktarım Amacı</b>
+            <p>Kişisel verileriniz, işbu Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni’nde yer alan amaçlar
+                dahilinde Kanun’un 8 ve 9. maddeleri uyarınca, iş ortaklarıyla, çalışanlarıyla, hizmet sağlayıcılarıyla
+                (bulut bilişim ve diğer bilişim hizmetleri sağlayan şirketler ve danışmanlar dahil olmak üzere) ve
+                acenteleriyle ve acenteliği yapılan şirketlerle, Hissedarlar ve iştirakleriyle, yürürlükteki kanunlar
+                gereği yurtiçi ve yurtdışında yetkili idari kuruluşlar ve yasal zorunluluklar doğrultusunda, diğer
+                ilgili kişi ve kuruluşlarla, kamu güvenliğinin sağlanması ve seyahat gerçekleştirilen ülkelerde
+                yürürlükteki yasal düzenlemelerden kaynaklanan yükümlülüklerin yerine getirilmesi amacı ile, bilgi
+                teknolojileri hizmet sağlayıcılarına, yazılım hizmetleri ve diğer dış kaynak hizmet sağlayıcılarına,
+                barındırma hizmet sağlayıcılarına, kargo ve lojistik şirketlerine, hukuk bürolarına, şikayet yönetimi ve
+                güvenliğin sağlanmasına ilişkin yazılım şirketlerine, ajanslara, danışmanlık şirketlerine, sosyal medya
+                mecralarına, grup şirketlerimiz ile hissedarlarımıza, iş ortaklarımıza, tedarikçilerimize, yetkili kamu
+                kurumlarına ve özel kişilere aktarılabilecektir. Pamukkale Grup Şirketleri, kullanıcı bilgilerinizi
+                reklam hedeflemesi amacıyla, Google Müşteri Eşleştirme (Google Customer Match) ve Facebook Özel Hedef
+                Kitle (Facebook Custom Audiences) hizmetlerini kullanmak suretiyle Google ve/veya
+                Facebook,Twitter,Instagram, Snapchat ile paylaşabilir. Google Müşteri Eşleştirme hizmeti, Pamukkale Grup
+                Şirketleri’nin Google’ın reklam ağı (örneğin, Arama, Gmail ve YouTube) üzerinden hedefleme yapılmak
+                suretiyle size ulaşılmasına ve size özel sunulan pazarlama mesajlarını görmeniz için kullanıcı
+                bilgilerinizi kullanmasına olanak tanımaktadır. Google kullanıcıları, Google reklam ayarlarında Müşteri
+                Eşleştirme reklamları dahil olmak üzere Google hizmetlerinde gördükleri reklamları kontrol
+                edebilmektedirler. Buradan detaylı olarak nasıl reklam ayarlarını kapatacağınızı görebilirsiniz.
+                Facebook Özel Hedef Kitle hizmeti kapsamında Pamukkale Grup Şirketleri, hedefleme yapılmak suretiyle
+                Facebook ve/veya Facebook’un sahip olduğu diğer uygulamalar üzerinden size reklam ve kampanyalar
+                sunabilir. Buradan detaylı olarak reklam tercihlerinizi nasıl değiştirebileceğinizi görebilirsiniz.
+                Pamukkale web sitesi Google Analystics kullanmaktadır. Google Analytics’ten aldığımız veriler web
+                sitemizi siz müşterilerimizin tercihlerine göre optimize etmemizi sağlamaktadır. IP adresinizin de dahil
+                olduğu bu veriler Google tarafından ABD’deki sunucularda barındırılmaktadır. Daha fazla bilgi için
+                lütfen <a href="https://www.google.com.tr/intl/tr/policies/privacy/">Google’ın gizlilik politikasını</a>
+                inceleyin.
+                <br>
+                Web sitemiz çerezleri kullanmaktadır. “Çerez” tarayıcınıza gönderilebilen bir veridir. Tarayıcınız
+                belirlediğiniz seçenekler doğrultusunda çerezleri sisteminizde saklayabilir. Çerezler işletim
+                sisteminiz, tarayıcı tipiniz, IP adresiniz vb. bilgileri toplar. Böylece web sitemizin barındığı sunucu
+                tarayıcınızı ve daha önce ziyaret ettiğiniz sayfaları takip edebilir, bununla birlikte çerezler,
+                örneğin, daha önce sepetinize eklediğiniz bir hizmeti/ürünü sonraki ziyaretlerinizde size
+                gösterebilmemizi sağlar.Genel olarak internet tarayıcıları, çerezleri otomatik olarak kabul edecek
+                şekilde ön tanımlıdır. Tarayıcılar, çerezleri engelleyecek veya cihaza çerez gönderildiğinde kullanıcıya
+                uyarı verecek şekilde ayarlanabilir. Çerezleri yönetmek tarayıcıdan tarayıcıya farklılık gösterdiğinden
+                ayrıntılı bilgi almak için tarayıcının yardım menüsüne bakılabilir. İnternet tarayıcınızdaki ayarları
+                değiştirerek çerezleri kabul veya reddetme imkanına sahipsiniz. Tarayıcı ayarlarınızı nasıl
+                değiştireceğinizi ya da çerezleri nasıl sileceğinizi öğrenmek için lütfen tarayıcınızın yönergelerine
+                bakınız.
+            </p>
+
+            <b>Rızaya Tabi İşlemeler </b>
+            <p>
+                Ayrıca rıza göstermeniz halinde, size ait kişisel bilgileriniz, sizin verdiğiniz onay doğrultusunda
+                kampanya bildirimleri, yeni ürün duyuruları ve çapraz alışveriş fırsatlarının paylaşılması amacı dahil
+                olmak üzere ürün ve/veya hizmetlerin tanıtımı, promosyonu, size özel kampanya, reklam, hedefleme, analiz
+                vs. gibi amaçlarla işlenebilecek, saklanabilecek ve bu kapsamda hizmet alınan üçüncü kişiler dahil
+                Pamukkale grup şirketleri ile, Şirket’in iş ortakları ve tedarikçileri ile hukuken yetkili kamu kurum ve
+                kuruluşları ile özel hukuk tüzel kişileriyle paylaşılabilecektir.
+            </p>
+
+            <b>Toplama Yöntemi ve Hukuki Sebebi</b>
+            <p>
+                Kişisel verileriniz, Pamukkale Grup Şirketleri tarafından işbu Kişisel Verilerin İşlenmesine İlişkin
+                Aydınlatma Metni’nde belirtilen amaçlarla kullanılmak üzere her türlü yazılı, sözlü, elektronik
+                ortamlardan otomatik olan ya da olmayan yöntemlerle toplanabilmektedir. Kişisel verileriniz Kanun’un 5.
+                ve 6. maddelerinde belirtilen kişisel veri işleme şartları ve amaçları ile işbu Kişisel Verilerin
+                İşlenmesine İlişkin Aydınlatma Metni’nde belirtilen amaçlarla işlenebilmekte ve aktarılabilmektedir.
+            </p>
+
+            <b>Kişisel Verilerin Saklanma Süresi </b>
+            <p>
+                Pamukkale Grup Şirketleri, kişisel verileri işbu Kişisel Verilerin İşlenmesine İlişkin Aydınlatma
+                Metni’nde belirtilen amaçların ve ilgili mevzuatın gerektirdiği süre boyunca saklayacaktır. Buna ek
+                olarak, Pamukkale Grup Şirketleri, veri sahibi ile arasında doğabilecek herhangi bir uyuşmazlık
+                durumunda, uyuşmazlık kapsamında gerekli savunmaların gerçekleştirilebilmesi amacıyla sınırlı olmak
+                üzere ve ilgili mevzuat uyarınca belirlenen zamanaşımı süreleri boyunca kişisel verileri
+                saklayabilecektir.
+            </p>
+
+
+            <b>Veri Güvenliğine İlişkin Önlem ve Taahhütler </b>
+            <p>
+                Pamukkale Grup Şirketleri, </p>
+            <ul>
+                <li>kişisel verilerin hukuka aykırı olarak işlenmemesini, </li>
+                <li>kişisel verilere hukuka aykırı olarak erişilmemesini ve</li>
+                <li>kişisel verilerin muhafazasını</li>
+            </ul>
+            <p>sağlamak amacıyla uygun güvenlik düzeyini temin etmeye yönelik gerekli teknik ve idari tedbirleri almayı,
+                gerekli denetimleri yaptırmayı taahhüt eder. Pamukkale Grup Şirketleri elde ettiği kişisel verileri işbu
+                Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni ile ilgili yasal mevzuata aykırı olarak başkasına
+                açıklamayacak ve işleme amacı dışında kullanmayacaktır
+            </p>
+
+            <b>Kanun Kapsamındaki Haklarınız </b>
+            <p>
+                Kanun’un 11. maddesi uyarınca, veri sahipleri olarak;
+                <br>
+            </p>
+            <ul>
+                <li>Kişisel veri işlenip işlenmediğini öğrenme,
+                </li>
+                <li>Kişisel verileri işlenmişse buna ilişkin bilgi talep etme,
+                </li>
+                <li>Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,
+                </li>
+                <li>Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme,
+                </li>
+                <li>Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme ve bu
+                    kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,
+                </li>
+                <li>6698 sayılı Kanun ve ilgili diğer kanun hükümlerine uygun olarak işlenmiş olmasına rağmen,
+                    işlenmesini gerektiren sebeplerin ortadan kalkması hâlinde kişisel verilerin silinmesini veya yok
+                    edilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere
+                    bildirilmesini isteme,
+                </li>
+                <li>İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin
+                    kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme,
+                </li>
+                <li>Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın
+                    giderilmesini talep etme, haklarına sahipsiniz.
+                </li>
+            </ul><br>
+            <p>
+                Söz konusu haklarınıza ilişkin taleplerinizi, kişisel veri sahipleri olarak yazılı bir şekilde “İsmet
+                Kaptan Mahallesi Gazi Bulvarı No:95 Münir Birsel Plaza K:2 D:4 Çankaya / İZMİR”
+                adresine yazılı olarak, apamukkale@hs01.kep.tr adresine güvenli elektronik imza, mobil imza ya da varsa
+                Pamukkale Grup Şirketleri’ne daha önceden bildirdiğiniz ve Pamukkale Grup Şirketleri sistemlerinde
+                kayıtlı bulunan elektronik posta adresi aracılığı ile info@pamukkale.com.tr adresine iletilmesi halinde
+                30 (otuz) gün içerisinde değerlendirilerek sonuçlandırılacaktır. Veri Sahibi tarafından iletilen
+                taleplerde, veri sahibinin adı, soyadı, başvuru yazılı ise imzası, TC kimlik numarası ya da yabancı ise
+                uyruğu, pasaport numarası veya varsa kimlik numarası, tebligata esas yerleşim yeri veya iş adresi, varsa
+                bildirime esas elektronik posta adresi, telefon ve faks numarası ve talep konusu bulunması zorunludur.
+                Başvuruya verilecek yanıtın CD, flash bellek gibi bir kayıt ortamında verilmesi halinde ise Pamukkale
+                Grup Şirketleri, talepte bulunan Veri Sahibi’nden kayıt ortamının maliyeti tutarında ücret talep
+                edebilir.
+
+            </p>
+
+            <b>Metindeki Değişiklikler </b>
+            <p>
+                Pamukkale Grup Şirketleri, işbu Metin’de yer alan hükümleri dilediği zaman yayımlamak suretiyle
+                değiştirebilir. Pamukkale Grup Şirketleri’nin değişiklik yaptığı hükümler yayınlandığı tarihte yürürlük
+                kazanır.
+            </p>
+            <p>
+                <a style="text-decoration: underline; color: black; font-weight: bold; font-size: 14px; margin: 10px 0px;"
+                    href="/uploads/verisahibibasvuruformu.docx" target="_blank">Veri Sahibi Başvuru Formu için
+                    tıklayınız.</a>
+            </p> <a
+                style="text-decoration: underline; color: black; font-weight: bold; font-size: 14px; margin: 10px 0px;"
+                href="/uploads/KVKK-26-Aralık-Oncesi.docx" target="_blank">26 Aralık 2019 Öncesi Kvkk Metni için
+                tıklayınız</a>
+        </div>
+    </div> -->
+
+    <!-- KVKK Bitiş -->
+
+
+    <!-- Yolcu Hakları Başlangıç -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Yolcu Hakları</h3>
+                <p class="mt-3">Dünden bugüne “Türkiye’nin Kavuşturan Gücü” olarak, araçlarımızdaki yolcularımızı hep
+                    misafirimiz
+                    olarak
+                    gördük.“Kaliteyi opsiyon olarak değil standart olarak sunma” hedefimizden hiçbir zaman taviz
+                    vermedik.
+                    Çünkü biz; “Kalite ülkemizin güzel insanlarının en doğal hakkıdır” diyoruz. </p>
+                <p>Karayolu ile yolcu taşımacılığında; güvenli, yenilikçi ve “Koşulsuz yolcu memnuniyetini” önceleyen
+                    hizmet anlayışımız bizim temel vizyonumuzdur.</p>
+                <p>Bu vizyon ile yolcularımızın hizmet aldıkları tüm süreçlerde; kurum kültürümüzün bir ifadesi ve
+                    “Toplam Kalite Yönetiminin” gereği olarak çalışmalarımızı aşağıdaki ilkeler ışığında
+                    gerçekleştirmekteyiz.</p>
+                <h5>Güvenli Yolculuk Hakkı</h5>
+                <p>
+                    Tüm yolcularımızın güvenli yolculuklar gerçekleştirebilmeleri için gerekli tüm tedbirlerin
+                    alınmasını ilke edindik.</p>
+                <h5> Koşulsuz Yolcu Mutluluğu Hakkı</h5>
+                <p>Koşulsuz yolcu mutluluğunu sağlamak ve keyifli yolculuklar gerçekleştirmeleri için yolcularımızın
+                    bugün
+                    ve gelecekteki ihtiyaçlarını en iyi şekilde karşılamayı ilke edindik. Türkiye’nin en tecrübeli ekibi
+                    olarak tüm çalışanlarımız tarafından bu ilkemiz benimsenmiştir.</p>
+                <h5>Keyifli Yolculuk Hakkı</h5>
+                <p>Yerli ve Milli bir marka olarak; tarihi değerlerimizi ve geleneklerimizi kurum kültürümüz olarak
+                    benimseriz. Geleneklerimizde misafirin en iyi şekilde ağırlanması ve “ikram” olmazsa olmazlarımızın
+                    başındadır. Her yolcumuzu misafirimiz olarak kabul eder; zengin ikram menülerimiz ile Türk
+                    misafirperverliğine uygun ağırlarız.</p>
+                <h5>Saygı ve İtibar Görme Hakkı</h5>
+                <p>Yolcularımız güleryüzlü, nazik ve saygılı bir yaklaşımla yolculuk gerçekleştirme hakkına sahiptir.
+                </p>
+                <h5>Mahremiyet ve Gizlilik Hakkı</h5>
+                <p>Yolcularımızın kişisel bilgilerinin, seyahat programlarının gizli kalması ve bu hususlarda gerekli
+                    tüm yasal zorunlulukları yerine getirmeyi her koşulda öncelikli tutarız.</p>
+                <h5>Bilgi İsteme Hakkı</h5>
+                <p> Yolcularımız, hizmet süreçlerimizin tüm aşamalarına dair bilgi edinme hakkına sahiptir. A’dan Z’ye
+                    tüm
+                    destek birimlerimiz, şirket kültürümüzü benimseyen tüm çalışanlarımız ile yolcularımızın sorularını
+                    cevaplamak temel prensibimizdir.</p>
+                <h5>Doğru Bilgi Edinme Hakkı</h5>
+                <p>Yolculuk öncesine ve sonrasına ait tüm süreçlerde bizlere güven duyan yolcularımızı her zaman ve her
+                    koşulda doğru bilgilendirmek değişmez ilkelerimizdendir.</p>
+                <h5>Taahhüt Edilen Zamanda Ulaşma Hakkı</h5>
+                <p> Etik ve dürüst işletme anlayışı gereği; seferlerimizin kalkış ve varış saatlerini gerçekçi bir
+                    şekilde
+                    programlayarak yolcularımızı yanıltmadan doğru bir şekilde paylaşmayı ilke edindik.</p>
+                <h5>Şikâyet/Görüş ve Öneri Bildirme Hakkı</h5>
+                <p>Yolcularımız, haklarının ihmali veya memnuniyetsizlik yaşamaları halinde şikâyet mekanizmasının
+                    başlatılması, sonuçlandırılması ve sonucundan haberdar edilmesi hakkına sahiptir. Başvurudan
+                    itibaren 24
+                    saat içerisinde geri dönüş yapmak, 7/24 ulaşılabilir olan Çağrı Merkezimiz ve Yolcu İlişkileri
+                    Departmanımızın ana felsefesidir.</p>
+                <h5>Dini Vecibelerini Yerine Getirme Hakkı</h5>
+                <p>Yolcularımızın dini vecibelerini yerine getirebilmeleri için azami hassasiyet gösterir ve gereken
+                    tedbirleri alırız. Duraklama noktalarımızda ibadet alanlarının bulunmasına özen gösterir, Ramazan
+                    ayı
+                    süresince ikram ve mola programlarımızı iftar ve sahur zamanlarına göre güncelleriz.</p>
+                <h5>Koşulsuz Ücret İadesi ve Değişim Hakkı</h5>
+                <p> “Seyahat Etmek Özgürlüktür” ilkesini benimseyerek, yolcularımıza seyahat programlarında daha fazla
+                    esneklik ve özgürlük imkânı sunmayı prensip edindik. Yolcularımız satış of islerimiz, çağrı
+                    merkezimiz,
+                    web sitemiz ve mobil uygulamamız üzerinden, hareket saatinden 6 saat öncesine kadar bilet değişiklik
+                    ve
+                    iptal işlemlerini koşulsuz olarak yapabilirler. Ayrıca Pamukkart üyesi yolcularımız seferlerimizden
+                    2
+                    saat öncesine kadar üyelik hesaplarından online olarak biletlerini açığa alabilmektedirler.</p>
+                <h5>Mal Güvenliği Hakkı</h5>
+                <p> Tüm araçlarımızda bagaj bölümlerinin düzenli ve hijyenik olmasına özen göstermekte, sefer boyunca
+                    bagajlarının kayıpsız ve sağlam şekilde taşınması için gerekli önlemleri almaktayız. Yolcularımızın
+                    bagajlarıyla ilgili haklarının ihmal edilmesi halinde yolcularımıza gerekli desteği vermek üzere
+                    Çağrı
+                    Merkezimiz ve Yolcu İlişkileri Departmanımız 7/24 ulaşılabilir durumdadır.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="/img/sofor-ab.png" class="container-fluid">
+                <img src="/img/muavin-abla.png" class="container-fluid">
+                <img src="/img/muavin-abi.png" class="container-fluid">
+                <img src="/img/tablet-gosteren-abla.png" class="container-fluid">
+            </div>
+        </div>
+    </div> -->
+
+    <div class="enesseninicın"></div>
+
+    <!-- Yolcu Hakları Bitiş -->
+
+    <footer class="w-100 bg-secondary">
+
+        <div class="footer-top mt-5 mb-4">
+            <div class="footer-top-logo">CEYLAN TURİZM</div>
+            <div style="font-size: 13pt;">08505515151</div>
+        </div>
+
+        <div class="footer-bottom pb-5">
+            <div class="row w-100 ms-5 justify-content-between">
+                <div class="col-md-3 mt-3 ">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;"> Kurumsal </span>
+                    <div class="w-100 d-flex justify-content-between mt-3" style="width: 170px;">
+                        <div class="row w-100">
+                            <div id="kurumsal" class="col-md-6 d-flex flex-column">
+                                <a href=""><i>></i>Tarihçe</a>
+                                <a class="mt-2 mb-2" href=""><i>></i>Filomuz</a>
+                                <a href=""><i>></i>İş Başvurusu</a>
+                            </div>
+                            <div id="kurumsal" class="col-md-5 d-flex flex-column ">
+                                <a href=""><i>></i>Satış Ortaklığı</a>
+                                <a class="mt-2 mb-2" href=""><i>></i>Pamukeller</a>
+                                <a href=""><i>></i>Görsel Dökümanlar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;">Seyahat
+                        Kılavuzu</span>
+                    <div class="w-100 d-flex justify-content-between mt-3" style="width: 170px;">
+                        <div id="kurumsal" class="d-flex flex-column">
+                            <a href=""><i>></i>Covid-19 Bilgilendirmesi</a>
+                            <a class="mt-2 mb-2" href=""><i>></i>Mobil Uygulamalar</a>
+                            <a href=""><i>></i>Yolcum Nerede</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;"> İletişim </span>
+                    <div class="w-100 d-flex justify-content-between" style="width: 170px;">
+                        <div id="kurumsal" class="d-flex flex-column mt-3">
+                            <a href=""><i>></i>Şubeler ve Acenteler</a>
+                            <a class="mt-2 mb-2" href=""><i>></i>Şehir İçi Servislerimiz</a>
+                            <a href=""><i>></i>Öneri ve Şikayet Formu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;"> Yolcu Hizmetleri
+                    </span>
+                    <div class="w-100 d-flex justify-content-between mt-3" style="width: 170px;">
+                        <div id="kurumsal" class="d-flex flex-column">
+                            <a href=""><i class="fa-solid fa-phone"></i>08505515151</a>
+                            <a href=""><i class="fa-brands fa-facebook-square"></i> Facebook</a>
+                            <a href=""><i class="fa-brands fa-instagram-square"></i> Instagram</a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i> Twitter</a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

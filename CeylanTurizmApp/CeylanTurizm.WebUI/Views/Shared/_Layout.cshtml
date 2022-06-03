@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CeylanTurizm.WebUI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/css/site5.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="head-div">
+        <a href="https://localhost:5001" class="logo-div">
+            CEYLAN TURİZM
+        </a>
+        <div class="head-main">
+            <div class="introduction">
+                Sizi Sevdiklerinize Kavuşturuyoruz
+            </div>
+            <div class="social-div">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="head-contact">
+            <div>08505515151</div>
+            <div>7/24 Müşteri Temsilcisi</div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Otobüs Bileti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="City" asp-route-name="Afyon">Afyon</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="City" asp-route-name="Niğde">Niğde</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="City" asp-route-name="Istanbul">Istanbul</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="City" asp-route-name="Ankara">Ankara</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="City" asp-route-name="Bursa">Bursa</a></li>
+                            <li><a class="dropdown-item" asp-controller="Home" asp-action="City" asp-route-name="Burdur">Burdur</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Yolcum Nerede</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/bilet/sorgu">E Bilet</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Seyahat klavuzu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/genel-bilgiler">Genel Bilgiler</a></li>
+                            <li><a class="dropdown-item" href="/yolcu-haklari">Yolcu Hakları</a></li>
+                            <li><a class="dropdown-item" href="/kvkk-yasal-sozlesmeler">KVKK Yasal Sözleşmeler</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Kurumsal
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link ">Blog</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            İletişim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                    </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a asp-controller="Admin" asp-action="Index" class="nav-link ">Admin Panel</a>
+                            </li>
+                        }
+                    }
+                </ul>
+                <div class="me-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ceylan Kart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                </ul>
+                            </li>
+
+
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/uye-girisi"><i class="fa-regular fa-user"></i>Üye Girişi</a>
+                                </li>
+
+                            }
+                            else
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                       data-bs-toggle="dropdown" aria-expanded="false">
+                                        @User.Identity.Name
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item">Detaylar</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Çıkış Yap</a></li>
+                                    </ul>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+
+    <footer class="w-100 bg-secondary">
+
+        <div class="footer-top mt-5 mb-4">
+            <div class="footer-top-logo">CEYLAN TURİZM</div>
+            <div style="font-size: 13pt;">08505515151</div>
+        </div>
+
+        <div class="footer-bottom pb-5">
+            <div class="row w-100 ms-5 justify-content-between">
+                <div class="col-md-3 mt-3 ">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;"> Kurumsal </span>
+                    <div class="w-100 d-flex justify-content-between mt-3" style="width: 170px;">
+                        <div class="row w-100">
+                            <div id="kurumsal" class="col-md-6 d-flex flex-column">
+                                <a href=""><i>></i>Tarihçe</a>
+                                <a class="mt-2 mb-2" href=""><i>></i>Filomuz</a>
+                                <a href=""><i>></i>İş Başvurusu</a>
+                            </div>
+                            <div id="kurumsal" class="col-md-5 d-flex flex-column ">
+                                <a href=""><i>></i>Satış Ortaklığı</a>
+                                <a class="mt-2 mb-2" href=""><i>></i>Pamukeller</a>
+                                <a href=""><i>></i>Görsel Dökümanlar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;">Seyahat Kılavuzu</span>
+                    <div class="w-100 d-flex justify-content-between mt-3" style="width: 170px;">
+                        <div id="kurumsal" class="d-flex flex-column">
+                            <a href=""><i>></i>Covid-19 Bilgilendirmesi</a>
+                            <a class="mt-2 mb-2" href=""><i>></i>Mobil Uygulamalar</a>
+                            <a href=""><i>></i>Yolcum Nerede</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;"> İletişim </span>
+                    <div class="w-100 d-flex justify-content-between" style="width: 170px;">
+                        <div id="kurumsal" class="d-flex flex-column mt-3">
+                            <a href=""><i>></i>Şubeler ve Acenteler</a>
+                            <a class="mt-2 mb-2" href=""><i>></i>Şehir İçi Servislerimiz</a>
+                            <a href=""><i>></i>Öneri ve Şikayet Formu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <span style="color:white; border-left: 7px solid red; padding-left: 5px;"> Yolcu Hizmetleri </span>
+                    <div class="w-100 d-flex justify-content-between mt-3" style="width: 170px;">
+                        <div id="kurumsal" class="d-flex flex-column">
+                            <a href=""><i class="fa-solid fa-phone"></i>08505515151</a>
+                            <a href=""><i class="fa-brands fa-facebook-square"></i> Facebook</a>
+                            <a href=""><i class="fa-brands fa-instagram-square"></i> Instagram</a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i> Twitter</a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = "_osmanLayout";
+}
+@model List<Expedition>
+<div class="container-admin p-3">
+    <h5 class="display-4">Expedition List</h5>
+    <hr />
+    <a class="btn btn-sm btn-success mb-3" asp-controller="Admin" asp-action="ExpeditionCreate">Create Expedition</a>
+    <a class="btn btn-sm btn-info mb-3 ms-2" asp-controller="Admin" asp-action="ExpeditionDeletedList">Deleted Expedition</a>
+    <table class="table table-sm table-dark">
+        <tr>
+            <td>Start</td>
+            <td>Station</td>
+            <td>Finish</td>
+            <td>Date</td>
+            <td>Price</td>
+        </tr>
+        @foreach (var exp in Model)
+        {
+            <tr>
+                <td>@exp.ExpeditionStart</td>
+                <td>@exp.ExpeditionStation</td>
+                <td>@exp.ExpeditionFinish</td>
+                <td>@exp.ExpeditionDate</td>
+                <td>@exp.ExpeditionPrice</td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Business.deps.json
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Business.dll
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\ref\CeylanTurizm.Business.dll
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Business.pdb
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Data.dll
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Entity.dll
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Data.pdb
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\bin\Debug\net5.0\CeylanTurizm.Entity.pdb
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.csproj.AssemblyReference.cache
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.AssemblyInfoInputs.cache
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.AssemblyInfo.cs
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.csproj.CoreCompileInputs.cache
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.csproj.CopyComplete
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.dll
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\ref\CeylanTurizm.Business.dll
+C:\Users\osman\Desktop\CeylanTurizmApp\CeylanTurizm.Business\obj\Debug\net5.0\CeylanTurizm.Business.pdb
