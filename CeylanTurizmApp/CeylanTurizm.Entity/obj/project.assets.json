@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osman\\Desktop\\CeylanTurizmApp\\CeylanTurizm.Entity\\CeylanTurizm.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\osman\\Desktop\\OsmanCeylanBiletSatisApp\\CeylanTurizmApp\\CeylanTurizm.Entity\\CeylanTurizm.Entity.csproj",
       "projectName": "CeylanTurizm.Entity",
-      "projectPath": "C:\\Users\\osman\\Desktop\\CeylanTurizmApp\\CeylanTurizm.Entity\\CeylanTurizm.Entity.csproj",
+      "projectPath": "C:\\Users\\osman\\Desktop\\OsmanCeylanBiletSatisApp\\CeylanTurizmApp\\CeylanTurizm.Entity\\CeylanTurizm.Entity.csproj",
       "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osman\\Desktop\\CeylanTurizmApp\\CeylanTurizm.Entity\\obj\\",
+      "outputPath": "C:\\Users\\osman\\Desktop\\OsmanCeylanBiletSatisApp\\CeylanTurizmApp\\CeylanTurizm.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

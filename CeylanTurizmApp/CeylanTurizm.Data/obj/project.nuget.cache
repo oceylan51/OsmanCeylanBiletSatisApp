@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m5/ufCK4/KBXNc0KPnSKYpLg2LiSi1TlQn6N8R2ElONHtq92sgNjUcNkx91m6kcqyUjvVr1pB2VULEPgWTV/Rw==",
+  "dgSpecHash": "rJbdzR5303VevyPlKoehNnnCWM8gkDIhIBAduCd2UT4LeUkMHAjNfcvJWk7bXeSdilNL+aizKQV4gKg9JVvPlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osman\\Desktop\\CeylanTurizmApp\\CeylanTurizm.Data\\CeylanTurizm.Data.csproj",
+  "projectFilePath": "C:\\Users\\osman\\Desktop\\OsmanCeylanBiletSatisApp\\CeylanTurizmApp\\CeylanTurizm.Data\\CeylanTurizm.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
